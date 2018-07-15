@@ -1,0 +1,6 @@
+# Exclude package folders
+node_modules
+
+# Exclude log, lock files
+*.log
+*.lock
