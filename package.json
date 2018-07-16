@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-as-base",
+  "version": "0.0.1",
+  "description": "An ESLint config for JavaScript projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atariskorpion/eslint-config-as-base.git"
+  },
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "shared",
+    "lint",
+    "plugin",
+    "javascript"
+  ],
+  "author": "Stephan Koepp (https://twitter.com/@sucheauto)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atariskorpion/eslint-config-as-base/issues"
+  },
+  "homepage": "https://github.com/atariskorpion/eslint-config-as-base#readme",
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.0.1",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.19.1 || ^5.0.1",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "scripts": {
+    "clean": "git clean -fdX .",
+    "ec-check": "editorconfig-tools check * rules/*",
+    "lint": "eslint -c index.js ./"
+
+  }
+}
