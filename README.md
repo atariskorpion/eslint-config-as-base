@@ -1,9 +1,9 @@
 <h3 align="center">
-  [Shared ESLint config](http://eslint.org/docs/developer-guide/shareable-configs) for JavaScript code.
+  <a href="http://eslint.org/docs/developer-guide/shareable-configs">Shared ESLint config</a> for JavaScript code.
 </h3>
-<div align="center">
-  [![version](https://img.shields.io/npm/v/eslint-config-as-base.svg?style=flat)](https://www.npmjs.com/package/eslint-config-as-base)
-</div>
+<p align="center">
+  <a href="https://www.npmjs.com/package/eslint-config-as-base"><img alt="NPM version" src="https://img.shields.io/npm/v/eslint-config-as-base.svg?style=flat"></a> <a href="https://travis-ci.org/lerna/lerna"><img alt="Travis Status" src="https://travis-ci.org/atariskorpion/eslint-config-as-base.svg?branch=master&style=flat"></a>
+</p>
 
 # eslint-config-as-base
 Used within repos as a common ESLint config. If project's need to override a configuration value, do it in the project's own `.eslintrc`.
