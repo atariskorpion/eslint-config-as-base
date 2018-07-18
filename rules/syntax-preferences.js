@@ -12,6 +12,17 @@ module.export = {
       "markers": ["*"]
     }],
     "eqeqeq": [2],
-    "prefer-const": 2
+    "arrow-body-style": [2, "as-needed"],
+    "accessor-pairs": [2, {
+      "getWithoutSet": false,
+      "setWithoutGet": false
+    }],
+    "brace-style": [2, "1tbs", {"allowSingleLine": true}],
+    "curly": [2, "multi-or-nest", "consistent"],
+    "new-parens": 2,
+    "func-call-spacing": 2,
+    "arrow-parens": [2, "as-needed"],
+    "prefer-const": 2,
+    "quote-props": [2, "consistent"]
   }
 }

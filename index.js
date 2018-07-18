@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './rules/syntax-preferences',
+    './rules/anti-pattern',
     './rules/spacing-details',
     './rules/file-whitespace',
     './rules/syntax-preferences'
